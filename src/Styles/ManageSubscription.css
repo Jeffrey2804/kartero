@@ -1,0 +1,87 @@
+.manageSubscription .tabMenu {
+  background-color: #F9F9F9;
+}
+.manageSubscription .tabHeader {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: center;
+  color: #979797;
+  text-transform: capitalize;
+  font-size: 23px;
+}
+.manageSubscription .content {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  color: #FD9A08;
+  font-size: 24px;
+}
+.manageSubscription .sendButton {
+  margin-left: 5px;
+  width: 80px;
+}
+.manageSubscription .supportImage {
+  width: 23vw;
+  height: 20vw;
+}
+.manageSubscription .titleHolder {
+  font-size: 19px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  color: #707070;
+}
+.manageSubscription .contactSupport {
+  margin-top: 3vw;
+  margin-left: 5vw;
+}
+.manageSubscription .contactSupport .supportName {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}
+.manageSubscription .contactSupport .supportPosition {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #747474;
+}
+.manageSubscription .contactSupport .supportMessage {
+  font-family: "Segoe UI";
+  font-style: normal;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}
+.manageSubscription .contactSupport .supportNumber {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  color: #747474;
+}
+.manageSubscription .contactSupport .supportEmail {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  color: #747474;
+}
+
+.accordionText {
+  text-align: center;
+  font-size: larger;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 600px;
+}/*# sourceMappingURL=ManageSubscription.css.map */

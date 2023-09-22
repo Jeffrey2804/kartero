@@ -1,0 +1,110 @@
+.dataTableReport {
+  height: 57vh;
+  position: static;
+}
+.dataTableReport .rdt_TableRow {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+.dataTableReport .rdt_TableCol {
+  white-space: pre-line !important;
+  word-break: break-all;
+}
+.dataTableReport .lnndaO {
+  white-space: pre-line !important;
+}
+.dataTableReport .rdt_TableHead {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+.dataTableReport .rdt_TableHeadRow {
+  background-color: rgb(148, 147, 147);
+  color: white;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rdt_Pagination {
+  background-color: red;
+}
+
+.csvDownloadButton {
+  height: 5vh;
+}
+
+.columnModalName {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+  line-height: 32px;
+  color: #707070;
+  cursor: pointer;
+}
+
+.modalHeader {
+  background: #333333;
+  border-radius: 10px 10px 0px 0px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 40px;
+  width: 625px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.modalDoneBtn {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.deliveryBatchTitle {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #707070;
+}
+
+.report .tabMenu {
+  background-color: #F9F9F9;
+}
+.report .tabHeader {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: center;
+  color: #979797;
+  font-size: 1vw;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignRight {
+  text-align: right;
+}/*# sourceMappingURL=ReportsPage.css.map */

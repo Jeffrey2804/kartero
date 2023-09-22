@@ -1,0 +1,154 @@
+.preview {
+  overflow: hidden;
+  margin-top: 1vh;
+}
+.preview .card {
+  color: white;
+  margin-top: 1%;
+  border-color: rgb(209, 209, 209);
+  border-style: solid;
+  transition: 0.3;
+  display: flex;
+  flex-basis: 30%;
+  cursor: pointer;
+}
+.preview .cardContent {
+  background-color: #F5F5F5;
+  height: 55vh;
+  font-family: "Segoe UI";
+  font-style: normal;
+}
+.preview .cardImage {
+  width: 100%;
+  height: 60%;
+}
+.preview .cardText {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 5vw;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  text-transform: capitalize;
+}
+.preview .cardPdfTitle {
+  background-color: #333333;
+  color: whitesmoke;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 5vw;
+  width: 27vw;
+  padding-top: 2vh;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  text-transform: capitalize;
+  height: 5vh;
+  border-top-left-radius: 40px;
+}
+.preview .cardHtmlTitle {
+  background-color: #333333;
+  color: whitesmoke;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 5vw;
+  width: 27vw;
+  padding-top: 2vh;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  text-transform: capitalize;
+  height: 5vh;
+}
+.preview .cardSmsTitle {
+  border-top-right-radius: 40px;
+  background-color: #333333;
+  color: whitesmoke;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 5vw;
+  width: 27vw;
+  padding-top: 2vh;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  text-transform: capitalize;
+  height: 5vh;
+}
+.preview .componentHolder {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.preview .flex {
+  gap: 1rem;
+}
+
+.previewContent {
+  height: 80vh;
+}
+
+.previewFooterMessage {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 1vw;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  color: #979797;
+  background-color: #F5F5F5;
+  width: 100vw;
+  height: 10vh;
+}
+
+.smartphone {
+  position: relative;
+  width: 346px;
+  height: 538px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 315px;
+  height: 203px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  padding-right: 10%;
+}/*# sourceMappingURL=Preview.css.map */

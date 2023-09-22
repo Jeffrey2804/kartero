@@ -1,0 +1,145 @@
+.adminStepperBox {
+  width: 100%;
+  height: calc(40vh - 80px);
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.adminStepperBox .adminStepLabel {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.adminStepperBox .adminStepperButton {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  padding-bottom: 3%;
+}
+
+.adminButtonBack {
+  position: absolute;
+  left: auto;
+  color: red;
+}
+
+.adminButtonNext {
+  position: absolute;
+  right: auto;
+  color: orange;
+}
+
+.adminIconLeft {
+  color: orange;
+}/*# sourceMappingURL=Stepper.css.map */
+
+.paperHolder {
+  width: calc(70vw - 80px);
+  height: calc(63.5vh - 80px);
+}
+
+.boxHolder{
+  width: calc(65vw - 80px);
+  height: calc(55vh - 80px);
+  margin: 4vh 0 0 3.5vw;
+}
+
+.accountVerifyFields {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.75vw;
+  line-height: 37px;
+  color: #707070;
+  /* margin: 10px; */
+  margin-left: 3vw;
+  margin-top: 3vh;
+}
+
+.accountVerifyValues {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 37px;
+  color: #707070;
+  /* margin-left: 35px; */
+  margin-top: 3vh;
+}
+
+.uploadBoxHolder{
+  width: calc(70vw - 80px);
+  height: calc(62vh - 80px);
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  margin: 1vw;
+  text-align: justify;
+}
+
+.adminFileDropZone {
+  width: calc(70vw - 80px);
+  height: calc(30vh - -50px);
+  padding-top: 14vh;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #979797;
+  text-align: center;
+}
+
+.previewHolder {
+  height: 46.5vh;
+  border-radius: 5px;
+  border: solid 1px;
+  overflow: hidden;
+}
+
+.tableListContainer {
+  height: 46.5vh;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+.mappingTable {
+  height: 46.5vh;
+  /* min-width: 10vw; */
+  /* width: 100%; */
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+.selectIframeHolder {
+  height: 37vh;
+  width: 35vw;
+}
+
+.previewIframeHolder {
+  height: 46vh;
+  width: 24vw;
+}
+
+.description {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  color: #1E1E1E;
+  margin-bottom: 5px;
+}
+
+.titleText{
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgba(112, 112, 112, 0.75);
+}

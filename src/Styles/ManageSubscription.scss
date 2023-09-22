@@ -1,0 +1,106 @@
+@import "../Variables/Variables.scss";
+
+.manageSubscription {
+    .tabMenu{
+        
+        background-color: #F9F9F9;
+    }
+    .tabHeader {
+        
+        @include tabHeader();
+        text-transform: capitalize;
+        font-size: 23px;
+    }
+
+    .content {
+        
+        @include contentDisplay();
+        font-size:24px;
+      
+    }
+    .sendButton{
+        // margin-left: 14.6vw;
+        margin-left: 5px;
+        width: 80px;
+    }
+    .supportImage{
+        
+        width: 23vw;
+        height: 20vw;
+    }
+
+    .titleHolder {
+        font-size:19px;
+        @include titleDisplay();
+    }
+
+
+
+    .contactSupport {
+        margin-top: 3vw;
+        margin-left: 5vw;
+        .supportName {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2vw;
+            text-transform: uppercase;
+            color: #5a5a5a;
+        }
+
+        .supportPosition {
+
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1vw;
+            // line-height: 266px;
+            /* identical to box height */
+
+            text-transform: uppercase;
+
+            color: #747474;
+        }
+
+        .supportMessage {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            text-transform: uppercase;
+
+
+            color: #5a5a5a;
+
+        }
+
+        .supportNumber {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+            color: #747474;
+        }
+
+        .supportEmail {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+            color: #747474;
+        }
+
+    }
+
+
+
+}
+
+.accordionText{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 600px;
+}

@@ -1,0 +1,46 @@
+.sendingSummary {
+
+    width: 100%;
+    height: 36vh;
+    margin-left: 25vw;
+    .main {
+        background-color: 979797;
+
+    }
+
+    .titleList {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1vw;
+        line-height: 150%;
+        color: white;
+        text-align: center;
+    }
+
+    .titleContainer {
+        background-color: #333333;
+        width: 15vw;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .percentTitle {
+        text-align: center;
+        width: 50vw;
+    }
+
+    .label {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5vw;
+        line-height: 150%;
+        /* or 48px */
+
+        text-align: center;
+        letter-spacing: -0.011em;
+        color: #1E1E1E;
+    }
+}

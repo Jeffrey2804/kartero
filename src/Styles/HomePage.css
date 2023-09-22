@@ -1,0 +1,89 @@
+.homePage {
+  background-color: #F0EEEE;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.mainMenu {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.mainMenu .cards {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  background-color: #F0EEEE;
+  margin-bottom: 2.2%;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.mainMenu .cards .card {
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  margin: 3%;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+}
+.mainMenu .cards .card .cardImage {
+  height: 100%;
+  width: 100%;
+}
+.mainMenu .cards .card .cardTitle {
+  color: orange;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", "monaco";
+  font-weight: bold;
+  font-size: 2vw;
+}
+.mainMenu .cards .card .cardText {
+  opacity: 80%;
+  font-size: 1vw;
+}
+.mainMenu .cards .card .cardDate {
+  opacity: 80%;
+  font-size: 1vw;
+}
+.mainMenu .cards .card:hover {
+  box-shadow: 1px 1px 10px 1px orange;
+  border-color: orange;
+  border-style: solid;
+  border: 50px;
+}
+
+.welcomeMessage {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  margin-left: 3%;
+  margin-top: 2%;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.welcomeUser {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: orange;
+}
+
+.cardMarginBot {
+  margin-bottom: 16%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}/*# sourceMappingURL=HomePage.css.map */

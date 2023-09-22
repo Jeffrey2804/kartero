@@ -1,0 +1,43 @@
+.send {
+  height: 53vh;
+}
+
+.sendPageContainer {
+  margin-top: 15%;
+}
+
+.successMessage {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.sendingDate {
+  font-family: "Segoe UI";
+  font-weight: 500;
+  font-size: 30px;
+  background-color: rgb(226, 226, 226);
+  height: 5vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  border-radius: 10px;
+  color: rgb(37, 37, 37);
+  box-shadow: 1px 1px 4px 1px rgb(77, 77, 77);
+}
+
+.homeSendButton {
+  width: 15vw;
+  font-weight: 700;
+  color: white;
+  font-family: "Segoe UI";
+  font-style: bold;
+  padding: 2px;
+  border-radius: 20px;
+  font-size: 1vw;
+  text-align: center;
+  background-color: orange;
+  height: 4vh;
+  cursor: pointer;
+}/*# sourceMappingURL=SendPage.css.map */

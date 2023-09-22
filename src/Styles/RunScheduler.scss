@@ -1,0 +1,43 @@
+@import "../Variables/Variables.scss";
+
+.runScheduler {}
+
+.pickDateText {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #979797;
+}
+
+
+
+.titleComponent {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+
+    color: #707070;
+
+}
+
+.summaryText {
+    width: 70%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height:30px;
+    color: #707070;
+}
+
+.saveButton{
+    width: 20%;
+}

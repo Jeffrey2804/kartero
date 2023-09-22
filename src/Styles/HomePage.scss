@@ -1,0 +1,123 @@
+@import "../Variables/Variables.scss";
+
+.homePage {
+    background-color: $mainBackGroundColor;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.mainMenu {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    //background-color: $mainBackGroundColor;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+
+    .cards {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        background-color: $mainBackGroundColor;
+        margin-bottom: 2.2%;
+        margin-top: 1%;
+        margin-left: 3%;
+        margin-right: 3%;
+
+        .card {
+            background-color: white;
+            // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            // box-shadow: 1px 1px 10px 1px orange;
+            transition: 0.3s;
+            border-radius: 15px;
+            width: 100%;
+            height: 100%;
+            margin: 3%;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+
+            cursor: pointer;
+
+            .cardImage {
+                height: 100%;
+                width: 100%;
+            }
+
+            .cardTitle {
+                @include cardTitle(orange);
+                font-size: 2vw;
+            }
+
+            .cardText {
+                // padding-left: 30%;
+                opacity: 80%;
+                font-size: 1vw;
+            }
+
+            .cardDate {
+                // padding-left: 42%;
+                opacity: 80%;
+                font-size: 1vw;
+            }
+        }
+
+        .card:hover {
+            // background-color: orange;
+
+            // border-radius: 15px;
+            box-shadow: 1px 1px 10px 1px orange;
+            border-color: orange;
+            border-style: solid;
+            border: 50px;
+
+            // .cardTitle {
+            //     @include cardTitle(orange);
+
+            // }
+
+            // .cardText {
+            //     color: white;
+            // }
+
+            // .cardDate {
+            //     color: white;
+            // }
+        }
+
+    }
+}
+
+.welcomeMessage {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-left: 3%;
+    margin-top: 2%;
+    // font-size: 200%;
+    font-size: 2vw;
+    @include welcomeFontStyle();
+}
+
+.welcomeUser {
+
+    @include welcomeFontStyle();
+    text-transform: capitalize;
+    color: orange;
+
+}
+
+.cardMarginBot {
+    //height: 70px;
+    margin-bottom: 16%;
+}
+
+.card:hover {
+   
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+}

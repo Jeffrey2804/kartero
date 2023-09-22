@@ -1,0 +1,21 @@
+[
+    {
+        "dataType" : "String",
+        "formats" : [
+            {"formatType" : "Text"},
+            {"formatType" : "Email"}
+        ]
+    }, 
+    {
+        "dataType" : "Date",
+        "formats" : [
+            {"formatType" : "dd/MM/yyyy"}
+        ]
+    }, 
+    {
+        "dataType" : "Numeric",
+        "formats" : [
+            {"formatType" : "none"}
+        ]
+    } 
+]

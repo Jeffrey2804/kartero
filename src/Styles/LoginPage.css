@@ -1,0 +1,61 @@
+.login {
+  background-color: rgb(255, 165, 0);
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(256, 165, 0);
+}
+.login .topCloudImage {
+  width: 100vw;
+  height: 20vh;
+}
+.login .botCloudImage {
+  width: 100vw;
+  height: 29vh;
+  transform: rotate(180deg);
+}
+
+.LoginForm {
+  height: 50vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.LoginForm .usernameTextBox {
+  text-align: center;
+  width: 15.5vw;
+  min-width: 300px;
+  height: 4vh;
+  border: none;
+  border-radius: 8px;
+  margin: 1vh;
+}
+.LoginForm .passwordTextBox {
+  text-align: center;
+  width: 15.5vw;
+  min-width: 300px;
+  height: 4vh;
+  border: none;
+  border-radius: 8px;
+  margin: 1vh;
+}
+.LoginForm .loginButton {
+  width: 7vw;
+  height: 3vh;
+  min-width: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  color: orange;
+  font-size: 1vw;
+  cursor: pointer;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-weight: bold;
+}
+.LoginForm .logoImage {
+  height: 15vh;
+  min-width: 300px;
+  width: 17vw;
+  display: flex;
+}/*# sourceMappingURL=LoginPage.css.map */

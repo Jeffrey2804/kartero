@@ -1,0 +1,72 @@
+@import "../Variables/Variables.scss";
+.login{
+    background-color: rgb(255, 165, 0);
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(256,165,0);
+   // display: flex;
+
+   
+    .topCloudImage{
+        width: 100vw;
+        height: 20vh;
+
+    }
+    .botCloudImage{
+        width: 100vw;
+        height: 29vh;
+        transform: rotate(180deg);
+    }
+
+}
+
+.LoginForm{
+    height:50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    .usernameTextBox{
+        text-align: center;
+        
+        @include logInTextBoxStyles;
+    }
+    .passwordTextBox{
+        text-align: center;
+        @include logInTextBoxStyles;
+    }
+   
+    .loginButton{
+        width : 7vw;
+        height: 3vh;
+        min-width: 50px;
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        color : orange;
+        font-size : 1vw;
+        cursor: pointer;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-weight: bold;
+    }
+    
+
+    .logoImage{
+        height: 15vh;
+        min-width: 300px;
+        width: 17vw;
+        display:flex;
+    }
+    
+    .captcha{
+        // padding-left: 3.5%;
+        // padding-bottom: 2%;
+
+        // transform:scale(0.77);
+        // -webkit-transform:scale(0.77);
+        // transform-origin:0 0;
+        // -webkit-transform-origin:0 0;
+    }
+}

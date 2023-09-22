@@ -1,0 +1,17 @@
+.review {
+  padding-top: 2%;
+  height: 1vh;
+}
+
+.reviewFooterMessage {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 1vw;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  color: #979797;
+  background-color: #F5F5F5;
+  width: 100vw;
+  height: 14vh;
+}/*# sourceMappingURL=Review.css.map */

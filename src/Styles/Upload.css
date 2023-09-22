@@ -1,0 +1,57 @@
+.upload {
+  width: 78vw;
+  height: 60vh;
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  margin: 1vw;
+  text-align: justify;
+}
+.upload .mainContentBox {
+  border-radius: 5px;
+  overflow-x: scroll;
+  display: contents;
+}
+
+.fileDropZone {
+  height: 58vh;
+  width: 78vw;
+  padding-top: 20vh;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 53px;
+  text-align: center;
+  color: #979797;
+  text-align: center;
+}
+
+.dropZoneText {
+  color: #979797;
+  margin-bottom: 2vh;
+}
+
+.uploadMessage {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 1vw;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  color: #979797;
+  background-color: #F5F5F5;
+  width: 100vw;
+  height: 14vh;
+}
+
+.fileSizeText {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 1vw;
+  font-size: 1vw;
+  line-height: 1vw;
+  text-align: center;
+  width: 100vw;
+  height: 14vh;
+}/*# sourceMappingURL=Upload.css.map */

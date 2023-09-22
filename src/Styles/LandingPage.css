@@ -1,0 +1,122 @@
+.confirmationContainer {
+  margin-top: 2%;
+}
+
+.confirmationText {
+  margin-top: 5%;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.titleHolder {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #AEAEAE;
+}
+
+.contentHolder {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #707070;
+}
+
+.confirmButton {
+  width: 8%;
+}
+
+.successPaymentPage {
+  margin-top: 5%;
+}
+
+.successPaymentTitle {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  color: #2CB629;
+}
+
+.successPaymentText {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.failedPaymentPage {
+  margin-top: 5%;
+}
+
+.failedPaymentTitle {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  color: #EA2A2A;
+}
+
+.linkExpiredTitle {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.failedPaymentText {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.otpTitle {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  color: #FD9A08;
+}
+
+.otpText {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.otpTextColored {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #FD9A08;
+}/*# sourceMappingURL=LandingPage.css.map */

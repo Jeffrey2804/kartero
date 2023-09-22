@@ -1,0 +1,35 @@
+.stepperBox {
+  width: 80vw;
+  padding-top: 9vh;
+}
+
+.buttonBack {
+  position: absolute;
+  left: auto;
+  color: red;
+  height: 92vh;
+  width: 10vw;
+}
+
+.buttonNext {
+  position: absolute;
+  right: auto;
+  color: orange;
+  height: 92vh;
+  width: 10vw;
+}
+
+.arrowNext {
+  height: 10vh;
+  width: 5vw;
+}
+
+.arrowPrev {
+  height: 10vh;
+  width: 5vw;
+  transform: rotate(180deg);
+}
+
+.iconLeft {
+  color: orange;
+}/*# sourceMappingURL=Stepper.css.map */

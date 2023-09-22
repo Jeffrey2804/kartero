@@ -1,0 +1,152 @@
+@import "../Variables/Variables.scss";
+
+.dataTableReport {
+    height: 57vh;
+    position: static;
+
+
+    .rdt_TableRow {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .8vw;
+        line-height: 20px;
+        /* identical to box height */
+        
+        text-align: center;
+        cursor: pointer;
+        color: black;
+    }
+
+    .rdt_TableCol {
+        white-space: pre-line !important;
+        // width: 13vw;
+        word-break: break-all;
+
+    }
+
+    .lnndaO {
+        white-space: pre-line !important;
+    }
+
+    .rdt_TableHead {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.8vw;
+        line-height: 20px;
+        text-align: center;
+        // background-color: #333333;
+        color: white;
+
+
+    }
+
+    .rdt_TableHeadRow {
+        background-color:rgb(148, 147, 147);
+        color: white;
+        // border: gray;
+        // border-style: solid;
+        // border-width: 0.5;
+        // border-radius: 10px;
+        font-weight: 700;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        // border-width:5px;
+        // border-color:red ;
+        // border-style: solid;
+    }
+
+
+}
+
+.rdt_Pagination {
+    background-color: red;
+}
+
+.csvDownloadButton {
+    height: 5vh;
+}
+
+.columnModalName {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 32px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.modalHeader {
+    background: #333333;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 40px;
+    width: 625px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+// .modalFooter{
+//     font-family: 'Lato';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 24px;
+//     /* identical to box height */
+//     text-align: center;
+
+//     color: #FFFFFF;
+//     background: #333333;
+//     border-radius: 0px 0px 50px 50px;
+// }
+
+.modalDoneBtn {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.deliveryBatchTitle {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #707070;
+}
+
+.report {
+
+    .tabMenu {
+
+        background-color: #F9F9F9;
+    }
+
+    .tabHeader {
+
+        @include tabHeader();
+
+        font-size: 1vw;
+    }
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+.textAlignRight{
+    text-align: right;
+}

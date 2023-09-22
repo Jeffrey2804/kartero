@@ -1,0 +1,54 @@
+.stepperBox {
+    width: 80vw;
+    padding-top: 9vh;
+    // padding-left: 10%;
+    // padding-right: 10%;
+    // padding-bottom: 6vw;
+    // height: 80vh;
+    // .stepLabel {
+    //     font-family: 'Segoe UI';
+    //     font-style: normal;
+    //     font-weight: 700;
+    //     font-size: 1vw;
+    //     line-height: 32px;
+    // }
+    // .stepperButton {
+    //     position: absolute;
+    //     bottom: 0;
+    //     width: 80vw;
+    //     // padding-bottom: 3%;
+    // }
+    // background-color: orange;
+}
+
+.buttonBack {
+    position: absolute;
+    left: auto;
+    color: red;
+    height: 92vh;
+    width: 10vw;
+}
+
+.buttonNext {
+    position: absolute;
+    right: auto;
+    color: orange;
+    height: 92vh;
+    width: 10vw;
+
+}
+
+.arrowNext {
+    height: 10vh;
+    width: 5vw;
+}
+
+.arrowPrev {
+    height: 10vh;
+    width: 5vw;
+    transform: rotate(180deg);
+}
+
+.iconLeft {
+    color: orange;
+}
